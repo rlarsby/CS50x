@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+                //when correct is clicked
+                function correctFunction() {
+                    document.querySelector('.correct').style.backgroundColor = 'green';
+                    document.querySelector('#answer1').innerHTML = 'Correct!';
+                }
+
+                //when wrong answer is clicked
+                document.addEventListener('DOMContentLoaded', function() {
+                    let incorrects = document.querySelectorAll('.incorrect');
+                    for (let i = 0; i < incorrects.length; i++) {
+                        incorrects[i].addEventListener('click', function() {
+                            incorrects[i].style.backgroundColor = 'red';
+                            document.querySelector('#answer1').innerHTML = 'Incorrect'
+                        });
+                    }
+                });
+
+                //check function
+                function checkFunction() {
+                    let input = document.querySelector('input');
+                    if (input.value === 'Malmö') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#answer2').innerHTML = 'Correct!';
+                    }
+                    else {
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#answer2').innerHTML = 'Incorrect';
+                    }
+                }
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <h3>What is the capital of Sweden?</h3>
+
+                <button class="incorrect">Gothenburg</button>
+                <button onclick="correctFunction()" class="correct">Stockholm</button>
+                <button class="incorrect">Malmö</button>
+                <button class="incorrect">Linköping</button>
+
+                <p id="answer1"></p>
+
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Which city is the 3rd biggest in Sweden?</h3>
+
+                <input type="text"></input>
+                <button onclick = "checkFunction()" id="check">Check Answer</button>
+
+                <p id="answer2"></p>
+
+            </div>
+
+        </div>
+    </body>
+</html>

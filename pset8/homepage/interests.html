@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <!-- My stylesheet -->
+        <link href="styles.css" rel="stylesheet">
+        <title>Interests</title>
+
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more";
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less";
+              moreText.style.display = "inline";
+            }
+          }
+          </script>
+
+    </head>
+    <body>
+         <!-- Navbar -->
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="https://ide-57529d43c3ec4a5fa7d140663e85b541-8080.cs50.xyz/index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://ide-57529d43c3ec4a5fa7d140663e85b541-8080.cs50.xyz/education.html">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://ide-57529d43c3ec4a5fa7d140663e85b541-8080.cs50.xyz/interests.html">Interests</a>
+              </li>
+              <li class="Contact me">
+                <a class="nav-link" href="https://ide-57529d43c3ec4a5fa7d140663e85b541-8080.cs50.xyz/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <br>
+        <div class="row no-gutters">
+
+          <div class="col">
+              <div class="jumbotron">
+                  <h4>Professional interests</h4>
+                  <h5>Product manager</h5>
+                  <p><span id="dots"></span><span id="more">
+                  A product manager is a professional role that is responsible for the development of products for an organization, known as the practice of product management.
+                  Product managers own the business strategy behind a product (both physical and digital products), specify its functional requirements, and generally manage the launch of features.
+                  They coordinate work done by many other functions (like software engineers, data scientists, and product designers) and are ultimately responsible for the business success of the product.
+                  Product managers traditionally resided in the marketing organizations of technology companies, but have since additionally become staples of engineering and even product-specific teams.
+                  </span></p>
+                  <button class="astext" onclick="myFunction()" id="myBtn">Read more</button>
+                  <p><h5>Leadership</h5>
+                  Leadership is both a research area and a practical skill encompassing the ability of an individual, group or organization to "lead", influence or guide other individuals, teams, or entire organizations.
+                  Often viewed as a contested term, specialist literature debates various viewpoints, contrasting Eastern and Western approaches to leadership, and also (within the West) North American versus European approaches.
+                  </p>
+
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="jumbotron" class="top-padding: 2rem;">
+                  <h4>Other</h4>
+                  <p><h5>Extreme sports</h5>
+                  The definition of extreme sports is not exact and the origin of the terms is unclear, but it gained popularity in the 1990s when it was picked up by marketing companies to promote the X Games
+                  and when the Extreme Sports Channel and the Extreme Sports Company launched.
+                  More recently, the commonly used definition from research is "a competitive (comparison or self-evaluative) activity within which the participant is
+                  subjected to natural or unusual physical and mental challenges such as speed, height, depth or natural forces and where fast and accurate cognitive perceptual processing
+                  may be required for a successful outcome" by Dr. Rhonda Cohen.
+                  </p>
+                  <p><h5>Submission wrestling</h5>
+                  The sport of submission wrestling brings together techniques from Catch wrestling, Folk wrestling, Greco-Roman wrestling, Freestyle wrestling, Jujutsu, Judo, Brazilian jiu-jitsu, Luta Livre and Sambo.
+                  Submission fighting as an element of a larger sport setting is very common in mixed martial arts, Brazilian jiu-jitsu, catch wrestling, and others.
+                  Submission wrestlers or grapplers usually wear shorts, singlets, wrestling trunks, skin-sticky clothing such as rash guards, and mixed short clothes so they do not rip off in combat.
+                  They are also known for using submission techniques normally banned in other arts or competitions such as heel hooks, toe holds, and wrist locks.
+                  </p>
+              </div>
+          </div>
+        </div>
+    </body>
+</html>

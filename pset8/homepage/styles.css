@@ -1,0 +1,65 @@
+.jumbotron {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+}
+
+.header-jumbotron {
+  margin-bottom: 3rem;
+  padding-bottom: 4rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.icon_center {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#more {display: none;}
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.astext:hover {
+  font-weight: 500;
+  text-decoration: none;
+}
