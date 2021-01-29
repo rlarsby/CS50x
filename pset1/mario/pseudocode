@@ -1,0 +1,5 @@
+ask for height h
+if h<1 or h>8 ask again
+iterate from i=0 to 7
+on iteration i print h #
+    remove # on each new line
