@@ -4,3 +4,5 @@ Please note that I do not own all of this code since some of it was prewritten i
 <br> Pset1-7 followed the syllabus of CS50 2020: https://cs50.harvard.edu/x/2020/
 <br> Pset8-9 follow the syllabus of CS50 2021: https://cs50.harvard.edu/x/2021/
 <br> Final project: https://github.com/rlarsby/website
+
+## Complete Syllabus
