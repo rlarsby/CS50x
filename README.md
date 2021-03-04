@@ -6,15 +6,15 @@ Please note that I do not own all of this code since some of it was prewritten i
 <br> Final project: https://github.com/rlarsby/website
 
 ## Complete Syllabus
-- [x] Scratch
-- [x] C
-- [x] Arrays
-- [x] Algorithms
-- [x] Memory
-- [x] Data Structures
-- [x] Python
-- [x] SQL
-- [x] HTML, CSS, JavaScript
-- [x] Flask
+- [x] Pset 0: Scratch
+- [x] Pset 1: C
+- [x] Pset 2: Arrays
+- [x] Pset 3: Algorithms
+- [x] Pset 4: Memory
+- [x] Pset 5: Data Structures
+- [x] Pset 6: Python
+- [x] Pset 7: SQL
+- [x] Pset 8: HTML, CSS, JavaScript
+- [x] Pset 9: Flask
 - [x] Final Project
 
