@@ -8,10 +8,10 @@ Please note that I do not own all of this code since some of it was prewritten i
 ## Complete Syllabus
 - [x] Pset 0: Scratch
 - [x] Pset 1: C
-- [x] Pset 2: Arrays (in C)
-- [x] Pset 3: Algorithms (in C)
-- [x] Pset 4: Memory (in C)
-- [x] Pset 5: Data Structures (in C)
+- [x] Pset 2: Arrays
+- [x] Pset 3: Algorithms
+- [x] Pset 4: Memory
+- [x] Pset 5: Data Structures
 - [x] Pset 6: Python
 - [x] Pset 7: SQL
 - [x] Pset 8: HTML, CSS, JavaScript
