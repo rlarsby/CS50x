@@ -6,3 +6,15 @@ Please note that I do not own all of this code since some of it was prewritten i
 <br> Final project: https://github.com/rlarsby/website
 
 ## Complete Syllabus
+- [x] Scratch
+- [x] C
+- [x] Arrays
+- [x] Algorithms
+- [x] Memory
+- [x] Data Structures
+- [x] Python
+- [x] SQL
+- [x] HTML, CSS, JavaScript
+- [x] Flask
+- [x] Final Project
+
